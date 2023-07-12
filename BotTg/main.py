@@ -66,12 +66,7 @@ def handle_text(message):
             bot.send_message(message.chat.id, 'Напиши игру для начала')
         else:
             bot.send_message(message.chat.id, getwiki(message.text))
-
-            #games: викторина
-def Game(message):
-
-
-
+            
 bot.polling(none_stop=True, interval=0)
 
 #new function(new answers) #2
