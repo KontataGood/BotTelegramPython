@@ -2,7 +2,6 @@ import telebot
 import wikipedia
 from wikipedia import re
 from telebot import types
-#import python weather
 
 #new bot
 bot = telebot.TeleBot("6173788749:AAHL6trtZV_4GTZ12-hm8iVb4_jvteCVYt4")#token
